@@ -18,7 +18,7 @@ so it will register itself as the Javascript is loaded.
 <script type="text/javascript" charset="UTF-8"
   src="/path/to/highlightjs-justfile/dist/justfile.min.js"></script>
 <script type="text/javascript">
-  hljs.registerLanguage("justfile",hljsDefineJustfile);
+  hljs.registerLanguage("justfile", hljsDefineJustfile);
   hljs.highlightAll();
 </script>
 ```
@@ -44,11 +44,11 @@ for details.
 
 ### Author
 
-Pete Lomax <petelomax@ymail.com>
+Gaetan Semet <gaetan@xeberon.net>
 
 ### Maintainer
 
-Pete Lomax <petelomax@ymail.com>
+Gaetan Semet <gaetan@xeberon.net>
 
 ## Links
 
