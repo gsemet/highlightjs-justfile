@@ -1,0 +1,35 @@
+{
+  "name": "highlightjs-justfile",
+  "version": "1.0.0",
+  "description": "Justfile syntax highlighting plugin for highlight.js",
+  "main": "src/justfile.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsemet/highlightjs-justfile.git"
+  },
+  "keywords": [
+    "justfile",
+    "just",
+    "hljs",
+    "highlightjs",
+    "highlight.js"
+  ],
+  "author": "Gaetan Semet",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/gsemet/highlightjs-justfile/issues"
+  },
+  "homepage": "https://github.com/gsemet/highlightjs-justfile#readme",
+  "devDependencies": {
+    "highlight.js": "^10.7.2",
+    "mocha": "^10.0.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "minimist": ">=1.2.6",
+    "mkdirp": "^1.0.4"
+  }
+}
